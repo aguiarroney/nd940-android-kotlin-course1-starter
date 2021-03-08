@@ -16,4 +16,7 @@ class ShoeFragmentViewModel: ViewModel() {
         teste.value = s
     }
 
+    fun addShoe(){
+        
+    }
 }

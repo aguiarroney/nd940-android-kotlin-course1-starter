@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.findNavController
 import com.udacity.shoestore.R
 import com.udacity.shoestore.databinding.FragmentShoesBinding
 import com.udacity.shoestore.viewmodels.ShoeFragmentViewModel
@@ -31,6 +32,10 @@ class ShoesFragment : Fragment() {
         viewModel.teste.observe(viewLifecycleOwner, Observer {
             Timber.i("Observou ${it}")
         })
+
+        binding.fabShoe.setOnClickListener {
+            it.findNavController().navigate(R.id.action_shoesFragment_to_shoeDetailFragment)
+        }
 
         return binding.root
     }
