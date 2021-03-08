@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="@dimen/margin"
-    android:orientation="vertical"
-    tools:context=".views.WelcomeFragment">
+<layout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/welcome_label"
-        android:textSize="@dimen/font_size" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_half"
-        android:text="@string/description_welcome" />
-
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="match_parent"
         android:layout_margin="@dimen/margin"
-        android:layout_weight="1"
-        android:gravity="end|bottom"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:context=".views.WelcomeFragment">
 
-        <Button
-            android:id="@+id/btn_next"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/next_btn_label" />
+            android:layout_gravity="center_horizontal"
+            android:text="@string/welcome_label"
+            android:textSize="@dimen/font_size" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_half"
+            android:text="@string/description_welcome" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/margin"
+            android:layout_weight="1"
+            android:gravity="end|bottom"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next_btn_label" />
+
+        </LinearLayout>
     </LinearLayout>
-
-
-</LinearLayout>
+</layout>

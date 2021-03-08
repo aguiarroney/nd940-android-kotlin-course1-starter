@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.findNavController
 import com.udacity.shoestore.R
 import com.udacity.shoestore.databinding.FragmentLoginBinding
+import androidx.databinding.DataBindingUtil
 
 class LoginFragment : Fragment() {
     private lateinit var binding: FragmentLoginBinding
@@ -15,7 +16,7 @@ class LoginFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentLoginBinding.inflate(layoutInflater, container, false)
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_login, container, false)
 
         binding.btnLogin.setOnClickListener { view: View ->
             navigateToWelcome(view)

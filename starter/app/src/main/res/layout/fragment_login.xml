@@ -1,58 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="@dimen/margin"
-    android:orientation="vertical"
-    tools:context=".views.LoginFragment">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/login"
-        android:textSize="@dimen/font_size" />
-
-    <EditText
-        android:id="@+id/et_email"
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_half"
-        android:hint="@string/login_hint"
-        android:importantForAutofill="no"
-        android:inputType="textEmailAddress" />
-
-    <EditText
-        android:id="@+id/et_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/password_hint"
-        android:importantForAutofill="no"
-        android:inputType="textPassword" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
+        android:layout_height="match_parent"
         android:layout_margin="@dimen/margin"
-        android:orientation="horizontal"
-        tools:ignore="RtlHardcoded">
+        android:orientation="vertical"
+        tools:context=".views.LoginFragment">
 
-        <Button
-            android:id="@+id/btn_login"
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/login_button_text"
-            tools:ignore="ButtonStyle" />
+            android:layout_gravity="center_horizontal"
+            android:text="@string/login"
+            android:textSize="@dimen/font_size" />
 
-        <Button
-            android:id="@+id/btn_sign_in"
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_half"
+            android:hint="@string/login_hint"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_hint"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/sign_in_button_text"
-            tools:ignore="ButtonStyle" />
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/margin"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded">
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_button_text"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in_button_text"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
     </LinearLayout>
-
-</LinearLayout>
+</layout>
