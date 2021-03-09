@@ -6,13 +6,17 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
 import com.udacity.shoestore.R
 import com.udacity.shoestore.databinding.FragmentShoeDetailsBinding
+import com.udacity.shoestore.viewmodels.ShoeFragmentViewModel
 
 class ShoeDetailFragment : Fragment() {
 
     private lateinit var binding: FragmentShoeDetailsBinding
+    private val viewModel: ShoeFragmentViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -28,12 +32,18 @@ class ShoeDetailFragment : Fragment() {
             binding.etName.text.clear()
             binding.etSize.text.clear()
 
-            it.findNavController().navigate(R.id.action_shoeDetailFragment_to_shoesFragment)
+            it.findNavController().navigateUp()
         }
 
         binding.btnSave.setOnClickListener {
-            //TODO add a new shoe do the list
-            it.findNavController().navigate(R.id.action_shoeDetailFragment_to_shoesFragment)
+            val shoeName: String = binding.etName.text.toString()
+            val shoeSize: Double = binding.etSize.text.toString().toDouble()
+            val shoeCompany: String = binding.etCompany.text.toString()
+            val shoeDescription: String = binding.etDescription.text.toString()
+
+            viewModel.addShoe(shoeName, shoeSize, shoeCompany, shoeDescription)
+
+            it.findNavController().navigateUp()
         }
 
         return binding.root

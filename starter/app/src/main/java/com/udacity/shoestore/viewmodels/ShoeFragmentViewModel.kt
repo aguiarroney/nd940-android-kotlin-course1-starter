@@ -1,22 +1,18 @@
 package com.udacity.shoestore.viewmodels
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.udacity.shoestore.models.Shoe
+import timber.log.Timber
 
 class ShoeFragmentViewModel: ViewModel() {
 
-    private var _shoeList: MutableLiveData<List<Shoe>> = MutableLiveData()
-    val shoeList: LiveData<List<Shoe>> = _shoeList
+    private val _shoeControllList = mutableListOf<Shoe>()
+    val shoeList: MutableLiveData<List<Shoe>> = MutableLiveData()
 
-    val teste: MutableLiveData<String> = MutableLiveData()
-
-    fun setTeste(s:String){
-        teste.value = s
-    }
-
-    fun addShoe(){
-        
+    fun addShoe(mName: String, mSize: Double, mCompany: String, mDesc: String){
+        val mShoe = Shoe(mName, mSize, mCompany, mDesc, emptyList())
+        _shoeControllList.add(mShoe)
+        shoeList.value = _shoeControllList
     }
 }

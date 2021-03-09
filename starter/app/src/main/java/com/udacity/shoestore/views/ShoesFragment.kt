@@ -6,18 +6,21 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
 import com.udacity.shoestore.R
 import com.udacity.shoestore.databinding.FragmentShoesBinding
+import com.udacity.shoestore.databinding.ShoeListItemBinding
+import com.udacity.shoestore.models.Shoe
 import com.udacity.shoestore.viewmodels.ShoeFragmentViewModel
 import timber.log.Timber
 
 class ShoesFragment : Fragment() {
 
     private lateinit var binding: FragmentShoesBinding
-    private lateinit var viewModel: ShoeFragmentViewModel
+    private val viewModel: ShoeFragmentViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -25,12 +28,14 @@ class ShoesFragment : Fragment() {
     ): View {
         binding = DataBindingUtil.inflate(layoutInflater,R.layout.fragment_shoes, container, false)
 
-        viewModel = ViewModelProvider(this).get(ShoeFragmentViewModel::class.java)
+        viewModel.shoeList.observe(viewLifecycleOwner, Observer {shoeList ->
+            Timber.i("pegou a lista: ${shoeList}")
 
-        viewModel.setTeste("mudou o observer")
-
-        viewModel.teste.observe(viewLifecycleOwner, Observer {
-            Timber.i("Observou ${it}")
+            shoeList.forEach { shoe ->
+                val shoeItem: ShoeListItemBinding = DataBindingUtil.inflate(inflater, R.layout.shoe_list_item, container, false)
+                shoeItem.itemShoe = shoe
+                binding.shoeList.addView(shoeItem.root)
+            }
         })
 
         binding.fabShoe.setOnClickListener {
