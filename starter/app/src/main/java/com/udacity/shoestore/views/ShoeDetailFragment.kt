@@ -1,14 +1,14 @@
 package com.udacity.shoestore.views
 
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
+import androidx.navigation.ui.NavigationUI
 import com.udacity.shoestore.R
 import com.udacity.shoestore.databinding.FragmentShoeDetailsBinding
 import com.udacity.shoestore.viewmodels.ShoeFragmentViewModel
@@ -37,13 +37,15 @@ class ShoeDetailFragment : Fragment() {
 
         binding.btnSave.setOnClickListener {
             val shoeName: String = binding.etName.text.toString()
-            val shoeSize: Double = binding.etSize.text.toString().toDouble()
+            val shoeSize: String = binding.etSize.text.toString()
             val shoeCompany: String = binding.etCompany.text.toString()
             val shoeDescription: String = binding.etDescription.text.toString()
 
-            viewModel.addShoe(shoeName, shoeSize, shoeCompany, shoeDescription)
-
-            it.findNavController().navigateUp()
+            if (shoeName.isNotEmpty() && shoeCompany.isNotEmpty() && shoeCompany.isNotEmpty() && shoeSize.isNotEmpty()) {
+                viewModel.addShoe(shoeName, shoeSize.toDouble(), shoeCompany, shoeDescription)
+                it.findNavController().navigateUp()
+            } else
+                Toast.makeText(context, "Missing Fields", Toast.LENGTH_SHORT).show()
         }
 
         return binding.root

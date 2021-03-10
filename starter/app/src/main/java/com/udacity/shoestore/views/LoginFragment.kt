@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.navigation.findNavController
 import com.udacity.shoestore.R
 import com.udacity.shoestore.databinding.FragmentLoginBinding
@@ -30,7 +31,10 @@ class LoginFragment : Fragment() {
     }
 
     private fun navigateToWelcome(v: View) {
-        v.findNavController().navigate(R.id.action_loginFragment_to_welcomeFragment)
+        if(binding.etEmail.text.isNotEmpty() && binding.etPassword.text.isNotEmpty())
+            v.findNavController().navigate(R.id.action_loginFragment_to_welcomeFragment)
+        else
+            Toast.makeText(context, "Missing Fields", Toast.LENGTH_SHORT).show()
     }
 
 }

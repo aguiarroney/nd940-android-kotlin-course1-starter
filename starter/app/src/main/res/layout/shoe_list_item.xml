@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@{Double.toString(itemShoe.size)}"
-                android:textSize="18sp"
+                android:textSize="@dimen/shoe_size_font_size"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_shoe_name"
                 tools:text="40" />
@@ -45,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@{itemShoe.company}"
-                android:textSize="18sp"
+                android:textSize="@dimen/shoe_size_font_size"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_shoe_size"
                 tools:text="Company" />
@@ -54,15 +54,16 @@
                 android:id="@+id/tv_shoe_description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
+                android:textSize="@dimen/desc_font_size"
+                android:text="@{itemShoe.description}"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_shoe_company"
                 tools:text="Brief description of the item" />
 
             <ImageView
                 android:id="@+id/iv_shoe_icon"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/shoe_list_icon_width"
+                android:layout_height="@dimen/shoe_item_height"
                 android:contentDescription="@string/shoe_icon_description"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

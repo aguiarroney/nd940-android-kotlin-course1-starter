@@ -12,11 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fb0dc94-e5dc-4bd6-9fc1-3d5645b24f13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/viewmodels/ShoeFragmentViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/viewmodels/ShoeFragmentViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/views/LoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/views/LoginFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/views/ShoeDetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/views/ShoeDetailFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/views/ShoesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/views/ShoesFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shoe_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shoe_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/shoe_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/shoe_list_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/navigation_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/navigation_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +57,7 @@
         <option value="valueResourceFile" />
         <option value="Kotlin Class" />
         <option value="layoutResourceFile" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -149,49 +159,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2991" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1615219145088">
+    <state x="2991" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1615384710072">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state x="2991" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615219145088" />
+    <state x="2991" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615384710072" />
     <state x="2930" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615211348353">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state x="2930" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615211348353" />
-    <state x="2561" y="279" key="AndroidCreateResourceDirectoryDialog" timestamp="1615208170621">
+    <state x="2561" y="279" key="AndroidCreateResourceDirectoryDialog" timestamp="1615380931727">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state x="2561" y="279" key="AndroidCreateResourceDirectoryDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615208170621" />
-    <state x="2561" y="279" key="AndroidCreateResourceFileDialog" timestamp="1615219053819">
+    <state x="2561" y="279" key="AndroidCreateResourceDirectoryDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615380931727" />
+    <state x="2561" y="279" key="AndroidCreateResourceFileDialog" timestamp="1615380947573">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state x="2561" y="279" key="AndroidCreateResourceFileDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615219053819" />
-    <state x="3044" y="310" key="AndroidCreateXmlResourceDialog" timestamp="1615221171483">
+    <state x="2561" y="279" key="AndroidCreateResourceFileDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615380947573" />
+    <state x="3044" y="310" key="AndroidCreateXmlResourceDialog" timestamp="1615380257828">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state x="3044" y="310" key="AndroidCreateXmlResourceDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615221171483" />
+    <state x="3044" y="310" key="AndroidCreateXmlResourceDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615380257828" />
     <state x="2768" y="282" key="FileChooserDialogImpl" timestamp="1615219780257">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state x="2768" y="282" key="FileChooserDialogImpl/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615219780257" />
-    <state width="2076" height="406" key="GridCell.Tab.0.bottom" timestamp="1615300507851">
+    <state width="2517" height="410" key="GridCell.Tab.0.bottom" timestamp="1615382655202">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state width="2076" height="406" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615300507851" />
+    <state width="2517" height="410" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615382655202" />
     <state width="2057" height="281" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1614976061121" />
-    <state width="2076" height="406" key="GridCell.Tab.0.center" timestamp="1615300507850">
+    <state width="2517" height="410" key="GridCell.Tab.0.center" timestamp="1615382655202">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state width="2076" height="406" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615300507850" />
+    <state width="2517" height="410" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615382655202" />
     <state width="2057" height="281" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1614976061121" />
-    <state width="2076" height="406" key="GridCell.Tab.0.left" timestamp="1615300507850">
+    <state width="2517" height="410" key="GridCell.Tab.0.left" timestamp="1615382655202">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state width="2076" height="406" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615300507850" />
+    <state width="2517" height="410" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615382655202" />
     <state width="2057" height="281" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1614976061121" />
-    <state width="2076" height="406" key="GridCell.Tab.0.right" timestamp="1615300507851">
+    <state width="2517" height="410" key="GridCell.Tab.0.right" timestamp="1615382655202">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state width="2076" height="406" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615300507851" />
+    <state width="2517" height="410" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615382655202" />
     <state width="2057" height="281" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1614976061121" />
     <state x="2644" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1615218796206">
       <screen x="1920" y="0" width="2560" height="1050" />

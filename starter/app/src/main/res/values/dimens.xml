@@ -4,4 +4,8 @@
     <dimen name="margin">16dp</dimen>
     <dimen name="margin_half">8dp</dimen>
     <dimen name="font_size">24sp</dimen>
+    <dimen name="shoe_size_font_size">18sp</dimen>
+    <dimen name="desc_font_size">12sp</dimen>
+    <dimen name="shoe_list_icon_width">50dp</dimen>
+    <dimen name="shoe_item_height">50dp</dimen>
 </resources>
