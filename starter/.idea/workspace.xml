@@ -13,14 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2fb0dc94-e5dc-4bd6-9fc1-3d5645b24f13" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_shop.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_instructions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_instructions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shoe_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shoe_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shoes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shoes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/navigation_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/navigation_graph.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,10 +167,10 @@
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state x="3044" y="310" key="AndroidCreateXmlResourceDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615387009524" />
-    <state x="2768" y="282" key="FileChooserDialogImpl" timestamp="1615389168541">
+    <state x="2768" y="282" key="FileChooserDialogImpl" timestamp="1615389558400">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state x="2768" y="282" key="FileChooserDialogImpl/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615389168541" />
+    <state x="2768" y="282" key="FileChooserDialogImpl/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615389558400" />
     <state width="2517" height="410" key="GridCell.Tab.0.bottom" timestamp="1615382655202">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
