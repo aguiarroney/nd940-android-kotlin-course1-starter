@@ -12,20 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fb0dc94-e5dc-4bd6-9fc1-3d5645b24f13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/views/LoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/views/LoginFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/views/ShoeDetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/views/ShoeDetailFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/views/ShoesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/udacity/shoestore/views/ShoesFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_shop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_instructions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_instructions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shoe_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shoe_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/shoe_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/shoe_list_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/navigation_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/navigation_graph.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shoes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_shoes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_welcome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,26 +158,26 @@
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state x="2991" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615384710072" />
-    <state x="2930" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615211348353">
+    <state x="2930" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615389152801">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state x="2930" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615211348353" />
+    <state x="2930" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615389152801" />
     <state x="2561" y="279" key="AndroidCreateResourceDirectoryDialog" timestamp="1615380931727">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
     <state x="2561" y="279" key="AndroidCreateResourceDirectoryDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615380931727" />
-    <state x="2561" y="279" key="AndroidCreateResourceFileDialog" timestamp="1615380947573">
+    <state x="2561" y="279" key="AndroidCreateResourceFileDialog" timestamp="1615387491010">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state x="2561" y="279" key="AndroidCreateResourceFileDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615380947573" />
-    <state x="3044" y="310" key="AndroidCreateXmlResourceDialog" timestamp="1615380257828">
+    <state x="2561" y="279" key="AndroidCreateResourceFileDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615387491010" />
+    <state x="3044" y="310" key="AndroidCreateXmlResourceDialog" timestamp="1615387009524">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state x="3044" y="310" key="AndroidCreateXmlResourceDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615380257828" />
-    <state x="2768" y="282" key="FileChooserDialogImpl" timestamp="1615219780257">
+    <state x="3044" y="310" key="AndroidCreateXmlResourceDialog/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615387009524" />
+    <state x="2768" y="282" key="FileChooserDialogImpl" timestamp="1615389168541">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>
-    <state x="2768" y="282" key="FileChooserDialogImpl/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615219780257" />
+    <state x="2768" y="282" key="FileChooserDialogImpl/0.0.1280.689/1920.0.2560.1050@1920.0.2560.1050" timestamp="1615389168541" />
     <state width="2517" height="410" key="GridCell.Tab.0.bottom" timestamp="1615382655202">
       <screen x="1920" y="0" width="2560" height="1050" />
     </state>

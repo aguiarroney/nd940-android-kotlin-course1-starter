@@ -30,4 +30,5 @@
     <string name="shoe_detail_size">Size: </string>
     <string name="shoe_detail_description">Description</string>
     <string name="detail_screen_label">Add a new shoe</string>
+    <string name="login_img">Login img</string>
 </resources>

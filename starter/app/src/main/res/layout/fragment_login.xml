@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="@dimen/margin"
         android:orientation="vertical"
         tools:context=".views.LoginFragment">
 
-        <TextView
-            android:id="@+id/textView"
+        <ImageView
+            android:id="@+id/iv_login_img"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="200dp"
             android:layout_gravity="center_horizontal"
-            android:text="@string/login"
-            android:textSize="@dimen/font_size" />
+            android:contentDescription="@string/login_img"
+            android:src="@drawable/ic_login" />
 
         <EditText
             android:id="@+id/et_email"
@@ -36,23 +36,29 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="right"
+            android:layout_gravity="center"
             android:layout_margin="@dimen/margin"
-            android:orientation="horizontal"
+            android:orientation="vertical"
             tools:ignore="RtlHardcoded">
 
             <Button
                 android:id="@+id/btn_login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_half"
+                android:background="@drawable/button_style"
                 android:text="@string/login_button_text"
+                android:textColor="@color/colorWhite"
                 tools:ignore="ButtonStyle" />
 
             <Button
                 android:id="@+id/btn_sign_in"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_half"
+                android:background="@drawable/button_style"
                 android:text="@string/sign_in_button_text"
+                android:textColor="@color/colorWhite"
                 tools:ignore="ButtonStyle" />
         </LinearLayout>
     </LinearLayout>

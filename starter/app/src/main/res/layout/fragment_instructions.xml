@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
@@ -12,14 +13,25 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size"
             android:layout_gravity="center_horizontal"
             android:text="@string/instructions_label" />
+
+        <ImageView
+            android:id="@+id/iv_instructions_img"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_half"
+            android:contentDescription="@string/login_img"
+            android:src="@drawable/ic_instructions" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/margin_half"
+            android:textSize="@dimen/font_size"
             android:text="@string/instructions" />
 
         <LinearLayout
@@ -34,7 +46,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
-                android:text="@string/next_btn_label" />
+                android:background="@drawable/button_style"
+                android:text="@string/next_btn_label"
+                android:textColor="@color/colorWhite" />
         </LinearLayout>
 
     </LinearLayout>
